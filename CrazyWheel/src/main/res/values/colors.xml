@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="MyActionBar_background__color">#929292</color>
+    <color name="MyActionBar_refreshbutton_background_stroke__color">#000000</color>
+    <color name="MyActionBar_title__textColor">#FFFFFF</color>
+    <color name="MyActionBar_divider__background">#000000</color>
+    <color name="item__background">#FFFFFF</color>
+    <color name="item__background_pressed">#EEEEEE</color>
+    <color name="item_title__textColor">#000000</color>
+    <color name="item_text__textColor">#929292</color>
+    <color name="item_stroke__color">#929292</color>
+</resources>

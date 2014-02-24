@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crazy Wheel</string>
+    <string name="action_settings">Settings</string>
+    <string name="ic_action_rotate_right__contentDescription">ic_action_rotate_right</string>
+    <string name="ic_action_previous_item__contentDescription">ic_action_previous_item</string>
+    <string name="title">Title</string>
+
+</resources>

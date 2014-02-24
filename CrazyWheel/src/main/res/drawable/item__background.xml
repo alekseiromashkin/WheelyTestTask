@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/item__background" />
+    <stroke
+        android:color="@color/item_stroke__color"
+        android:width="@dimen/MyActionBar_refreshbutton_background_stroke__width"/>
+    <corners
+        android:radius="@dimen/MyActionBar_refreshbutton_background_stroke__radius" />
+</shape>

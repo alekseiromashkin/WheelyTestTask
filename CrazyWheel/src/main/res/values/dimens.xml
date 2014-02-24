@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="MyActionBar_title__textSize">25sp</dimen>
+    <dimen name="MyActionBar_backbutton__layout_marginLeft">10dip</dimen>
+    <dimen name="MyActionBar_refreshbutton_background_stroke__width">1dip</dimen>
+    <dimen name="MyActionBar_refreshbutton_background_stroke__radius">5dip</dimen>
+    <dimen name="MyActionBar_refreshbutton__layout_marginRight">10dip</dimen>
+    <dimen name="MyActionBar_refreshbutton__padding">2dip</dimen>
+    <dimen name="MyActionBar_divider__layout_height">1dip</dimen>
+    <dimen name="item_title__textSize">25sp</dimen>
+    <dimen name="item_text__textSize">24sp</dimen>
+    <dimen name="item__padding">10dip</dimen>
+    <dimen name="list_fragment__padding">10dip</dimen>
+    <dimen name="list_fragment_list__dividerHeight">10dip</dimen>
+    <dimen name="detail_fragment__padding">10dip</dimen>
+    <dimen name="detail_fragment_textview__padding">10dip</dimen>
+    <dimen name="detail_fragment_text__layout_marginTop">10dip</dimen>
+
+</resources>

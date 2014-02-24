@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/MyActionBar_backbutton__layout_marginLeft"
+        android:src="@drawable/ic_action_previous_item"
+        android:contentDescription="@string/ic_action_previous_item__contentDescription"
+        android:background="@null"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxEms="6"
+        android:maxLines="1"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/MyActionBar_title__textSize"
+        android:textColor="@color/MyActionBar_title__textColor"/>
+
+    <FrameLayout
+        android:id="@+id/refresh_envelope"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/MyActionBar_refreshbutton__layout_marginRight"
+        android:background="@drawable/refreshbutton_envelope__background" >
+
+        <ImageButton
+            android:id="@+id/refresh"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/MyActionBar_refreshbutton__padding"
+            android:src="@drawable/ic_action_rotate_right"
+            android:contentDescription="@string/ic_action_rotate_right__contentDescription"
+            android:background="@null"
+            android:clickable="true"/>
+
+    </FrameLayout>
+
+   <View
+       android:layout_height="@dimen/MyActionBar_divider__layout_height"
+       android:layout_width="match_parent"
+       android:layout_alignParentBottom="true"
+       android:background="@color/MyActionBar_divider__background"/>
+
+</RelativeLayout>
